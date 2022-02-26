@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Block1 } from "./Block1";
+import { InfoBlock } from "./InfoBlock";
+import { Login } from "./Login";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Login />
+      <section>
+        <Block1 />
+        <div className="imageBox">
+          <img
+            src="unsplash_stpmvHj6C-o.png"
+            alt="male siiting on rock near beach"
+          ></img>
+        </div>
+
+        <InfoBlock />
+      </section>
     </div>
   );
 }
-
 export default App;

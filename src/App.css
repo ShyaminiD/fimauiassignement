@@ -1,38 +1,286 @@
 .App {
   text-align: center;
+  background-color:grey
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.userLogin{
+  background-color:#FFFFFF;
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.credentials{
+  font-family:Roboto; 
+font-weight:400; 
+font-size:24px;
+color:#000000;
+padding:30px;
+margin:auto;
 }
 
-.App-link {
-  color: #61dafb;
+.namecredential,.passwordcredential{
+  border-radius: 5px;
+  border:2px solid #E5E5E5;
+  padding:10px;
+  width: 50%;
+  font-size:10px;
+
+}
+input.namecredential:hover, input.passwordcredential:hover
+{
+  border-color: #B9B3B3;
+}
+.submitbtn{
+  border-radius: 5px;
+  border:2px solid #E5E5E5;
+  color:#FFFFFF;
+  padding:10px;
+  width: 55%;
+  font-size:10px;
+  font-weight:400;
+  margin:20px;
+  background-color:#4B0082;
+}
+section{
+  width:414px;
+  height:896px;
+  border: 1px solid red;
+  background-color:#FFFFFF;
+ 
+}
+.user{
+  font-family:Inter;
+color:#19012B;
+font-size: 14px;
+margin:0px;
+text-align: left;
+font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatarimg{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  color:#C4C4C4;
 }
+.datetime{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  padding-left:10px;
+  
+}
+
+.pageblk1b {
+  background-color:#FFFFFF;
+  width: 394px;
+ 
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:10px;
+}
+.pageblk1c{
+  display:flex;
+  flex-direction:row;
+  
+}
+.gross{
+  color: #968C9D;
+  font-size: 12px;
+  font-family: Inter;
+  margin:0px;
+
+}
+.grosscoins{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+margin:0px;
+}
+.arrowIcon{
+  color:#1DBA80;
+  padding:5px;
+}
+.coinIcon{
+  color:#FFBF00;
+  padding:5px;
+}
+.ellipsisIcon{
+  color:#968C9D;
+  padding:5px;
+
+}
+
+.coinsblk1a{
+  display:flex;
+  flex-direction:row;
+}
+.coinsblk1{
+  display:flex;
+  flex-direction:column;
+}
+.coinsblk{
+  display:flex;
+  flex-direction:row;
+}
+
+.imageBox{
+  width:414px;
+  height: 640px;
+  background-color:green;
+ }
+img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+ 
+}
+.pageblk2{
+ background-color:#FFFFFF;
+  padding:10px;
+  text-align: left;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.pageblk2a{
+  width: 60%;
+  text-align: left;
+  
+}
+
+.iconBox{
+  width:20px;
+  height:25px;
+  }
+.symbols{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  
+}
+.symbolsBox{
+  width:35%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.persons{
+  font-size: 14px;
+ color:#19012B;
+ font-family:Inter;
+ margin:0px;
+ padding-top:10px;
+ padding-bottom:10px;
+}
+.coinDiv{
+  width:20px;
+  height:25px;
+  
+}
+.symbols{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  
+}
+.netcoins{
+  font-family: Lato;
+font-style: Bold;
+font-size: 14px;
+margin:0px;
+padding:2px;
+margin-top:2px;
+}
+
+.pageblk2e{
+  display:flex;
+  flex-direction:row;
+
+}
+
+span{
+    color: #968C9D;
+    font-size: 12px;
+    font-family: Inter;
+
+}
+
+.userDetails{
+  display:flex;
+  flex-direction:row;
+}
+
+.pageblk2d{
+  display:flex;
+  flex-direction:column;
+  padding-left: 5px;
+}
+
+.pageblk2b{
+  width:40%;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+
+}
+.leadbtn{
+  margin-top:0px;
+  
+  background-color:#4B0082;
+  border-radius:8px;
+  padding:10px;
+  width:65%;
+  display:flex;
+  flex-direction:row;
+  
+}
+.btn{
+  border:none;
+  background-color:#4B0082;
+  color:#fff;
+  font-weight:bold;
+  }
+
+
+.u{
+  width:20px;
+  height:20px;
+text-align:center;
+  border-radius: 50%;
+  background-color:yellow;
+
+}
+
+.numbers{
+  
+  width:18px;
+  height:15px;
+  background-color:#ECE6F0;
+  text-align:center;
+  border-radius:3px;
+  padding:5px;
+  font-size:10px;
+  margin:auto;
+
+}
+.numbersblk{
+ 
+  width:65%;
+  padding:10px;
+  display:flex;
+  flex-direction: row;
+ }
+ .comments{
+  font-family: Inter;
+  font-size: 14px;
+  line-height:20px;
+  color:#19012B;
+ }
+
+

@@ -14,7 +14,8 @@ export function Block1() {
           <div>
             <img
               src="unsplash_rriAI0nhcbc.png"
-              className="avatarimg" />
+              className="avatarimg"
+            alt="avatar"/>
           </div>
           <div className="datetime">
             <p className="user">alfredo_rosser1</p>

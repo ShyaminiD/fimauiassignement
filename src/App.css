@@ -1,6 +1,15 @@
 .App {
   text-align: center;
-  background-color:grey
+  background-color:grey;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around
+}
+@media (max-width: 600px) {
+  .App {
+    flex-direction:column;
+}
+   
 }
 .userLogin{
   background-color:#FFFFFF;
